@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtunnle.a  CMakeFiles/tunnle.dir/tunnel.cpp.o
+/usr/bin/ranlib libtunnle.a

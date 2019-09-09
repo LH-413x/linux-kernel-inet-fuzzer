@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tunnel.h
+linux/ip6_tunnel.h
+-
+linux/if_tunnel.h
+-
+linux/in6.h
+-
+utils.h
+-
+
+../include/utils.h
+random
+-
+
+/home/liuhao/CLionProjects/linux/net/route/tunnel/test_tunnel.cpp
+tunnel.h
+-
+
